@@ -1,0 +1,46 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  padding: 50px;
+  border-radius: 7px;
+}
+.heading {
+  color: #0f172a;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+.paragraph {
+  color: #334155;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+.text-para {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #334155;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 8px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
