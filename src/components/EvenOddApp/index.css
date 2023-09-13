@@ -1,20 +1,21 @@
-/* Write your CSS here */
 .bg-container {
-  padding: 10px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 .card {
-  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  padding: 30px;
+  border-radius: 15px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+
+  height: 250px;
+  width: 300px;
 }
 .heading {
   font-family: 'Roboto';
@@ -22,21 +23,22 @@
   color: #0f172a;
   font-weight: bold;
 }
-.counter {
+.para {
   font-family: 'Roboto';
-  font-size: 23px;
+  font-size: 20px;
+  color: #334155;
+  font-weight: bold;
+}
+.para2 {
+  font-family: 'Roboto';
+  font-size: 13px;
   color: #334155;
   font-weight: bold;
 }
 .button {
-  background-color: #ffffff;
-  color: #334155;
-  border: 1px solid #1e293b;
-  border-radius: 7px;
-  padding: 10px;
-}
-.para {
-  font-family: 'Roboto';
-  font-size: 18px;
   color: #1e293b;
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
 }
